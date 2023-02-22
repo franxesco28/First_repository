@@ -1,0 +1,34 @@
+[22-Feb-2023 16:57:00 UTC] PHP Fatal error:  Uncaught TypeError: addErrorToLog(): Argument #1 ($error) must be of type string, array given, called in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\mysqli\mysqli.php on line 20 and defined in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\helper.inc.php:55
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\E-commerceprova\inc\mysqli\mysqli.php(20): addErrorToLog(Array)
+#1 C:\Users\franc\PhpstormProjects\E-commerceprova\create.php(46): connectMySQLi('localhost', '3306', 'root', 'root', 'test_app')
+#2 C:\Users\franc\PhpstormProjects\E-commerceprova\create.php(20): uploadImage(Array)
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\helper.inc.php on line 55
+[22-Feb-2023 17:01:37 UTC] PHP Fatal error:  Uncaught TypeError: addErrorToLog(): Argument #1 ($error) must be of type string, array given, called in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\mysqli\mysqli.php on line 20 and defined in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\helper.inc.php:55
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\E-commerceprova\inc\mysqli\mysqli.php(20): addErrorToLog(Array)
+#1 C:\Users\franc\PhpstormProjects\E-commerceprova\create.php(46): connectMySQLi('localhost', '3306', 'root', 'root', 'test_app')
+#2 C:\Users\franc\PhpstormProjects\E-commerceprova\create.php(20): uploadImage(Array)
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\helper.inc.php on line 55
+[22-Feb-2023 17:03:22 UTC] PHP Fatal error:  Uncaught TypeError: addErrorToLog(): Argument #1 ($error) must be of type string, array given, called in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\mysqli\mysqli.php on line 20 and defined in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\helper.inc.php:55
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\E-commerceprova\inc\mysqli\mysqli.php(20): addErrorToLog(Array)
+#1 C:\Users\franc\PhpstormProjects\E-commerceprova\create.php(46): connectMySQLi('localhost', '3306', 'root', 'root', 'test_app')
+#2 C:\Users\franc\PhpstormProjects\E-commerceprova\create.php(20): uploadImage(Array)
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\helper.inc.php on line 55
+[22-Feb-2023 17:13:14 UTC] PHP Fatal error:  Uncaught TypeError: ImageDbService::__construct(): Argument #1 ($db) must be of type mysqli, null given, called in C:\Users\franc\PhpstormProjects\E-commerceprova\create.php on line 48 and defined in C:\Users\franc\PhpstormProjects\E-commerceprova\services\ImageService.php:33
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\E-commerceprova\create.php(48): ImageDbService->__construct(NULL)
+#1 C:\Users\franc\PhpstormProjects\E-commerceprova\create.php(20): uploadImage(Array)
+#2 {main}
+  thrown in C:\Users\franc\PhpstormProjects\E-commerceprova\services\ImageService.php on line 33
+[22-Feb-2023 17:14:40 UTC] PHP Fatal error:  Uncaught TypeError: addErrorToLog(): Argument #1 ($error) must be of type string, array given, called in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\mysqli\mysqli.php on line 20 and defined in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\helper.inc.php:55
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\E-commerceprova\inc\mysqli\mysqli.php(20): addErrorToLog(Array)
+#1 C:\Users\franc\PhpstormProjects\E-commerceprova\create.php(46): connectMySQLi('localhost', '3306', 'root', 'root', 'test_app')
+#2 C:\Users\franc\PhpstormProjects\E-commerceprova\create.php(20): uploadImage(Array)
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\E-commerceprova\inc\helper.inc.php on line 55
